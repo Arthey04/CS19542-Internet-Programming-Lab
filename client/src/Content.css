@@ -1,0 +1,47 @@
+.container-fluid {
+  
+    
+    background-color: black;   
+    height: 100vh;
+    color: white;           
+  }
+  .image {
+    background-image: url('./dog4.jpg'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:  center;
+    height: 500px; 
+    border-radius: 8px;
+    
+  }
+  .quote h3{
+    color:pink;
+    margin-top: 10rem;
+    margin-left: 50px;
+  }
+  .card{
+    color:white;
+    
+  }
+  .glow-button {
+    
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #1e90ff; 
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(30, 144, 255, 0.7);
+  }
+  
+  .glow-button:hover {
+    box-shadow: 0 0 25px rgba(30, 144, 255, 1), 0 0 50px rgba(30, 144, 255, 0.7);
+    transform: scale(1.1);
+  }
+  
+  .glow-button:active {
+    transform: scale(0.95);
+  }
+  

@@ -1,0 +1,12 @@
+.navbar {
+    
+    border-radius: 20px; 
+    top: 0;
+   
+  }
+  /* Header.css */
+.position-sticky {
+ 
+  top: 0; /* Ensure it sticks to the top */
+  z-index: 1020; /* Ensure it's above other content while scrolling */
+}

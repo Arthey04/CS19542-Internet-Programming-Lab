@@ -1,0 +1,23 @@
+
+body {
+    background-color: #121212; /* Dark background color */
+  }
+  
+  .container {
+    background-color: #1e1e1e; /* Slightly lighter dark background for the container */
+    border-radius: 8px; /* Rounded corners for better aesthetics */
+    padding: 20px; /* Padding inside the container */
+  }
+  
+  .form-control {
+    background-color: #2c2c2c; /* Dark background for form fields */
+    color: #ffffff; /* Light text color */
+    border: none; /* Remove border */
+  }
+  
+  .form-control:focus {
+    background-color: #2c2c2c; /* Dark background on focus */
+    border-color: #007bff; /* Bootstrap primary color for focus border */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add shadow for better visibility */
+  }
+  
